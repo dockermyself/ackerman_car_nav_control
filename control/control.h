@@ -6,13 +6,13 @@
 #define RTK_NAV_CONTROL_H
 
 #include "include/header.h"
-//车轮半径单位米
-#define CAR_WHEEL_RADIUS    0.27f
-#define CAR_BODY_X  1.6f
-#define CAR_BODY_Y  2.32f
+//车轮半径单位cm
+#define CAR_WHEEL_RADIUS    2.7f
+#define CAR_BODY_X  16f
+#define CAR_BODY_Y  23.2f
 //车轮间距
-#define CAR_WHEEL_Y 1.48f
-#define CAR_WHEEL_X 1.50f
+#define CAR_WHEEL_Y 14.8f
+#define CAR_WHEEL_X 15.0f
 
 //数据周期200ms
 #define CAR_MSG_PERIOD  200
